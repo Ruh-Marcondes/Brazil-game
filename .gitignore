@@ -1,0 +1,47 @@
+# Ignore os arquivos de diretório do Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+
+# Diretório de cache do Unity
+UserSettings/
+
+# Ignore os arquivos criados automaticamente pelo Unity
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Mono auto generated files
+mono_crash.*
+
+# Ignore os pacotes gerenciados pelo Unity
+[Pp]ackages/manifest.json
+[Pp]ackages/packages-lock.json
+
+# Assets gerados para a build, que podem ser regenerados facilmente
+# Se quiser manter o controle de versões de seus pacotes, remova o comentário das linhas abaixo
+# /[Aa]ssets/
+# /[Pp]roject[Ss]ettings/
+
+# Configurações locais
+.vscode/
+.idea/
+*.tmproj
+.DS_Store
+
+# Ignore os arquivos de sistema do Windows
+Thumbs.db
+Desktop.ini
